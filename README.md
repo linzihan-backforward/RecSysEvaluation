@@ -17,7 +17,11 @@ In recommender system, top-$N$ recommendation is an important task from implicit
 
 We conduct six groups of experiment including metrics, dataset splitting, sampled metrics, dataset preprocessing, objective function, and hyper-parameter searching. All the experiments is run with the framework, *[RecBole](https://github.com/RUCAIBox/RecBole)*. Detailed information and configuration for each experiment can be found in the folder: ./experiments. All the results showed in our paper is derived from these experiments. The configuration files of the eight datasets we used are listed in the folder: ./dataset. 
 
-![image-20210510184102008](.\resource\dataset.jpg)
+<p align="center">
+  <img src="resource/dataset.jpg" alt="Dataset Statistics" width="600">
+  <br>
+  <b>Figure</b>: Statistics of the used datasets for our experiments
+</p>
 
 We adopt twelve models in our experiments:
 
