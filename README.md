@@ -17,6 +17,23 @@ In recommender system, top-$N$ recommendation is an important task from implicit
 
 We conduct six groups of experiment including metrics, dataset splitting, sampled metrics, dataset preprocessing, objective function, and hyper-parameter searching. All the experiments is run with the framework, *[RecBole](https://github.com/RUCAIBox/RecBole)*. Detailed information and configuration for each experiment can be found in the folder: ./experiments. All the results showed in our paper is derived from these experiments. The configuration files of the eight datasets we used are listed in the folder: ./dataset. 
 
+![image-20210510184102008](.\resource\dataset.jpg)
+
+We adopt twelve models in our experiments:
+
+- **Popularity**
+- **ItemKNN**
+- **SVD++**
+- **BPRMF**
+- **NeuMF**
+- **FISM**
+- **NAIS**
+- **NGCF**
+- **LightGCN**
+- **CDAE**
+- **MultiVAE**
+- **ENMF**
+
 ## Paper Categorization
 
 we collected 93 papers from eight conferences, which are KDD, SIGIE, WWW, IJCAI, AAAI, WSDM, CIKM, and RecSys.  We review and categorize the evaluation setup from the experiment section of the original paper. Due to the limit for the number of the citations in the paper, we only select 42 of 93 paper to cite in our paper. The intact version of these paper categorization can be found at: *./Review_of_papers.pdf*. The  statistical information in our paper is base on the whole collection.
