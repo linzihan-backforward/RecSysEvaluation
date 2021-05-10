@@ -1,0 +1,5 @@
+embedding_size: 64
+split_to: 0
+reg_weights: [1e-7, 1e-7]
+alpha: 0
+learning_rate: 1e-4

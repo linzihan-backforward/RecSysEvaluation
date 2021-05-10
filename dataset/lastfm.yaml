@@ -1,0 +1,19 @@
+# dataset config
+field_separator: "\t"
+seq_separator: ","
+USER_ID_FIELD: user_id
+ITEM_ID_FIELD: artist_id
+eval_setting: RO_RS,full
+min_user_inter_num: 5
+min_item_inter_num: 5
+LABEL_FIELD: label
+NEG_PREFIX: neg_
+load_col:
+  inter: [user_id, artist_id]
+
+# training and evaluation
+epochs: 500
+train_batch_size: 4096
+valid_metric: NDCG@10
+eval_batch_size: 819200
+metrics: ["Recall", "MRR","NDCG","Hit","Precision","MAP"]
