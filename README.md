@@ -1,11 +1,11 @@
 # RecSysEvaluation
 This is our code and supplementary materials for the paper:
 
-> Wayne Xin Zhao, Zihan Lin, Zhichao Feng, PengFei Wang and Ji-Rong Wen (2021). A Revisiting Study of Appropriate Offline Evaluation forTop-𝑁Recommendation Algorithms. 
+> Wayne Xin Zhao, Zihan Lin, Zhichao Feng, PengFei Wang and Ji-Rong Wen (2021). A Revisiting Study of Appropriate Offline Evaluation for Top-𝑁Recommendation Algorithms. 
 
 ## Introduction
 
-In recommender system, top-$N$ recommendation is an important task from implicit feedback. Although the recent success of deep learning largely pushes forwards the research on top-$N$ recommendation,  there are increasing concerns on appropriate evaluation of recommendation algorithms.  To study how recommendation algorithms are reliably evaluated and thoroughly verified, we conduct  a large-scale, systematic study on six important factors in three aspects for evaluating recommender systems. With the help of an open-sourced recommendation library [Recbole](https://recbole.io/) to implement all the experiments, so that our experiments themselves are reproducible.
+In recommender system, top-$N$ recommendation is an important task from implicit feedback. Although the recent success of deep learning largely pushes forwards the research on top-$N$ recommendation,  there are increasing concerns on appropriate evaluation of recommendation algorithms.  To study how recommendation algorithms are reliably evaluated and thoroughly verified, we conduct  a large-scale, systematic study on six important factors in three aspects for evaluating recommender systems. With the help of an open-sourced recommendation library [*Recbole*](https://recbole.io/) to implement all the experiments, so that our experiments themselves are reproducible.
 
 ## Requirements
 
