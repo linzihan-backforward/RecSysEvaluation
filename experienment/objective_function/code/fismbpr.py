@@ -1,17 +1,7 @@
-# -*- encoding: utf-8 -*-
-# @Time    :   2020/09/28
-# @Author  :   Kaiyuan Li
-# @email   :   tsotfsk@outlook.com
-
-
 """
-FISM
-#######################################
-Reference:
-    S. Kabbur et al. "FISM: Factored item similarity models for top-n recommender systems" in KDD 2013
+Put this file into the `RecBole/recbole/model/general_model/` directory.
 
-Reference code:
-    https://github.com/AaronHeee/Neural-Attentive-Item-Similarity-Model
+This is the FISM model with `BPR Loss function`.
 """
 
 import torch

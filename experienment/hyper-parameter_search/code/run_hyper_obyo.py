@@ -1,3 +1,9 @@
+"""
+Put this file into the `RecBole/` directory.
+
+This file is used to search best hyper parameters one by one
+"""
+
 import argparse
 import numpy as np
 

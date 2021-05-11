@@ -1,14 +1,7 @@
-# -*- encoding: utf-8 -*-
-# @Time    :   2020/11/15
-# @Author  :   Zihan Lin
-# @email   :   zhlin@ruc.edu.cn
-
 """
-SVDPP
-######################################
-Reference:
-    Yehuda Koren. "Factorization Meets the Neighborhood: a Multifaceted Collaborative Filtering Model." in KDD 2008.
+Put this file into the `RecBole/recbole/model/general_model/` directory.
 
+This is the SVDPP model with `BPR Loss function`.
 """
 
 import torch

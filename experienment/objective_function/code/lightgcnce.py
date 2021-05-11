@@ -1,22 +1,7 @@
-# -*- coding: utf-8 -*-
-# @Time   : 2020/8/31
-# @Author : Changxin Tian
-# @Email  : cx.tian@outlook.com
+"""
+Put this file into the `RecBole/recbole/model/general_model/` directory.
 
-# UPDATE:
-# @Time   : 2020/9/16
-# @Author : Shanlei Mu
-# @Email  : slmu@ruc.edu.cn
-
-r"""
-LightGCN
-################################################
-
-Reference:
-    Xiangnan He et al. "LightGCN: Simplifying and Powering Graph Convolution Network for Recommendation." in SIGIR 2020.
-
-Reference code:
-    https://github.com/kuandeng/LightGCN
+This is the LightGCN model with `BCE Loss function`.
 """
 
 import torch.nn as nn

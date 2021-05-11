@@ -1,12 +1,7 @@
-# -*- encoding: utf-8 -*-
-# @Time    :   2020/12/9
-# @Author  :   Zhichao Feng
-# @email   :   fzcbupt@gmail.com
+"""
+Substitute this file for the `RecBole/recbole/evaluator/proxy_evaluator.py` file.
 
-# UPDATE
-# @Time    :   2020/12/9
-# @Author  :   Zhichao Feng
-# @email   :   fzcbupt@gmail.com
+"""
 
 from collections import ChainMap
 
