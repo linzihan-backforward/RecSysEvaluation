@@ -1,7 +1,7 @@
 # RecSysEvaluation
 This is our code and supplementary materials for the paper:
 
-> Wayne Xin Zhao, Zihan Lin, Zhichao Feng, PengFei Wang and Ji-Rong Wen (2021). A Revisiting Study of Appropriate Offline Evaluation for Top-𝑁Recommendation Algorithms. 
+> Wayne Xin Zhao, Zihan Lin, Zhichao Feng, PengFei Wang and Ji-Rong Wen (2021). A Revisiting Study of Appropriate Offline Evaluation for Top-𝑁 Recommendation Algorithms. 
 
 ## Introduction
 
@@ -10,7 +10,7 @@ In recommender system, top-$N$ recommendation is an important task from implicit
 ## Requirements
 
 - Python 3.8
-- Pytorch 1.7.0
+- Pytorch >= 1.7.0
 - RecBole 0.1.2 or 0.2.0
 
 ## Experiments
@@ -46,7 +46,7 @@ we collected 93 papers from eight conferences, which are KDD, SIGIE, WWW, IJCAI,
 
 Any scientific publications that use our codes or results should cite the following paper as the reference.
 
-We will update the citation when the paper is published.
+We will update the citation when the paper publish.
 
 
 
