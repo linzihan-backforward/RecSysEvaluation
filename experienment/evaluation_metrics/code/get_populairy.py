@@ -1,6 +1,7 @@
 """
 Put this file into the `RecBole/recbole/utils/` directory.
 
+This file is used to count the times each item is consumed.
 """
 
 import torch

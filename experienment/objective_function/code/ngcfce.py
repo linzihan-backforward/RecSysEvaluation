@@ -1,22 +1,7 @@
-# -*- coding: utf-8 -*-
-# @Time   : 2020/7/16
-# @Author : Zihan Lin
-# @Email  : linzihan.super@foxmail.com
+"""
+Put this file into the `RecBole/recbole/model/general_model/` directory.
 
-# UPDATE:
-# @Time   : 2020/9/16
-# @Author : Shanlei Mu
-# @Email  : slmu@ruc.edu.cn
-
-r"""
-NGCF
-################################################
-Reference:
-    Xiang Wang et al. "Neural Graph Collaborative Filtering." in SIGIR 2019.
-
-Reference code:
-    https://github.com/xiangwang1223/neural_graph_collaborative_filtering
-
+This is the NGCF model with `BCE Loss function`.
 """
 
 import numpy as np

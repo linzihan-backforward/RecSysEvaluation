@@ -1,6 +1,7 @@
 """
 Put this file into the `RecBole/recbole/utils/` directory.
 
+This file is used to calculate novelty and coverage metric.
 """
 
 import numpy as np

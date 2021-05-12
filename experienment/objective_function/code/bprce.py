@@ -1,19 +1,7 @@
-# -*- coding: utf-8 -*-
-# @Time   : 2020/6/25
-# @Author : Shanlei Mu
-# @Email  : slmu@ruc.edu.cn
+"""
+Put this file into the `RecBole/recbole/model/general_model/` directory.
 
-# UPDATE:
-# @Time   : 2020/9/16
-# @Author : Shanlei Mu
-# @Email  : slmu@ruc.edu.cn
-
-
-r"""
-BPR
-################################################
-Reference:
-    Steffen Rendle et al. "BPR: Bayesian Personalized Ranking from Implicit Feedback." in UAI 2009.
+This is the BPR model with `BCE Loss function`.
 """
 
 import torch

@@ -1,16 +1,7 @@
-# -*- encoding: utf-8 -*-
-# @Time    :   2020/08/04
-# @Author  :   Kaiyuan Li
-# @email   :   tsotfsk@outlook.com
-
-# UPDATE
-# @Time    :   2021/01/07, 2020/08/11, 2020/12/18
-# @Author  :   Kaiyuan Li, Yupeng Hou, Zhichao Feng
-# @email   :   tsotfsk@outlook.com, houyupeng@ruc.edu.cn, fzcbupt@gmail.com
-
 """
-recbole.evaluator.evaluators
-#####################################
+Substitute this file for the `RecBole/recbole/evaluator/evaluators.py` file.
+
+This file is used to calculate origin and unbiased metrics.
 """
 
 from collections import ChainMap
@@ -100,10 +91,10 @@ class TopKEvaluator(GroupedEvaluator):
 
         metric_dict = self.metrics_info(pos_idx_matrix, pos_len_list, self.metrics)
         # get unbias result
-        if self.unbias:
-            metrics = ['unbias_' + metric for metric in self.metrics]
-            unbias_pos_idx = self.scale_up_rank(pos_idx_matrix, user_len_list, eval_data.item_num)
-            metric_dict.update(self.metrics_info(unbias_pos_idx, pos_len_list, metrics))
+        # if self.unbias:
+        #     metrics = ['unbias_' + metric for metric in self.metrics]
+        #     unbias_pos_idx = self.scale_up_rank(pos_idx_matrix, user_len_list, eval_data.item_num)
+        #     metric_dict.update(self.metrics_info(unbias_pos_idx, pos_len_list, metrics))
 
         return metric_dict
 
@@ -486,7 +477,7 @@ class UnbiasTopkEvaluator(GroupedEvaluator):
         result_list = self._calculate_metrics(pos_len_list, pos_idx_matrix)
         for metric, value in zip(metrics, result_list):
             for k in self.topk:
-                key = 'fixed_unbias_{}@{}'.format(metric, k)
+                key = 'unbias_{}@{}'.format(metric, k)
                 metric_dict[key] = round(value[k - 1], self.precision)
 
         return metric_dict

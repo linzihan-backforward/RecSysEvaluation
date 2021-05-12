@@ -1,18 +1,7 @@
-# -*- coding: utf-8 -*-
-# @Time   : 2020/6/27
-# @Author : Shanlei Mu
-# @Email  : slmu@ruc.edu.cn
+"""
+Put this file into the `RecBole/recbole/model/general_model/` directory.
 
-# UPDATE:
-# @Time   : 2020/8/22,
-# @Author : Zihan Lin
-# @Email  : linzihan.super@foxmain.com
-
-r"""
-NeuMF
-################################################
-Reference:
-    Xiangnan He et al. "Neural Collaborative Filtering." in WWW 2017.
+This is the NeuMF model with `BPR Loss function`.
 """
 
 import torch
