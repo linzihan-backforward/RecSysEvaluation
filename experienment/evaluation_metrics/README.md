@@ -1,6 +1,6 @@
 # Evaluation Metric
 
-## Experiment Setup
+## Introduction
 
 In this experiment,  we want to find the consistency between different metrics. 
 

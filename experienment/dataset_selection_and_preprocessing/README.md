@@ -1,6 +1,6 @@
 # Dataset Selection and Preprocessing
 
-## Experiment Setup
+## Introduction
 
 In this experiment,  we want to find how different data processing methods affect the model performance.
 
@@ -10,7 +10,7 @@ The detailed configuration is available at `RecSysEvaluation/dataset` directory 
 
 ## Running Step
 
-Run the following commands, where `$Path` denotes the directory in which `RecSysEvaluation` is located.
+Run the following commands, where `$Path` denotes the directory in which `RecSysEvaluation` is located. Here, `min_user_inter_num` should be equal to `min_item_inter_num`, whose value range in **`[0, 5, 10]`**.
 
 In the following examples: 
 
