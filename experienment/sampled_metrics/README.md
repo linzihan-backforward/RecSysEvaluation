@@ -28,11 +28,11 @@ In the following examples:
 Other experiments' running steps are similar.
 
 ```bash
-python run_recbole.py  --model=ItemKNN --datasaet=ML-1M --config_files='$Path/RecSysEvaluation/dataset/ML-1M.yaml RecSysEvaluation/experiment/hyper_parameters/ML-1M/ItemKNN.yaml' --eval_setting=TO_RS, uni100
+python run_recbole.py  --model=ItemKNN --datasaet=ML-1M --config_files='$Path/RecSysEvaluation/dataset/ML-1M.yaml RecSysEvaluation/experiment/sampled_metrics/hyper_parameters/ML-1M/ItemKNN.yaml' --eval_setting=TO_RS, uni100
 
-python run_recbole.py  --model=BPR --datasaet=Netflix --config_files='$Path/RecSysEvaluation/dataset/Netflix.yaml RecSysEvaluation/experiment/hyper_parameters/Netflix/BPR.yaml' --eval_setting=TO_RS, pop1000
+python run_recbole.py  --model=BPR --datasaet=Netflix --config_files='$Path/RecSysEvaluation/dataset/Netflix.yaml RecSysEvaluation/experiment/sampled_metrics/hyper_parameters/Netflix/BPR.yaml' --eval_setting=TO_RS, pop1000
 
-python run_recbole.py  --model=NeuMF --datasaet=LastFM --config_files='$Path/RecSysEvaluation/dataset/LastFM.yaml RecSysEvaluation/experiment/hyper_parameters/LastFM/NeuMF.yaml' --eval_setting=RO_RS, uni200
+python run_recbole.py  --model=NeuMF --datasaet=LastFM --config_files='$Path/RecSysEvaluation/dataset/LastFM.yaml RecSysEvaluation/experiment/sampled_metrics/hyper_parameters/LastFM/NeuMF.yaml' --eval_setting=RO_RS, uni200
 ```
 
 
