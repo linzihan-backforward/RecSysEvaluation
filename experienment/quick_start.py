@@ -1,11 +1,9 @@
-# @Time   : 2020/10/6
-# @Author : Shanlei Mu
-# @Email  : slmu@ruc.edu.cn
+"""
+Put this file into the `RecBole/quick_start/` directory.
 
+This file is used to run `recbole` quickly.
 """
-recbole.quick_start
-########################
-"""
+
 import logging
 from logging import getLogger
 

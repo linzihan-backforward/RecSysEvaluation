@@ -1,0 +1,4 @@
+dropout_prob choice [0.5,0.3,0.1]
+negative_weight choice [5e-3,5e-2,0.5]
+embedding_size choice [32,64]
+learning_rate choice [5e-5,1e-4,5e-4,1e-3,5e-3,1e-2]

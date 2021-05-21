@@ -1,0 +1,4 @@
+reg_weight_1 choice [0,0.01]
+reg_weight_2 choice [0,0.01]
+embedding_size choice [16,32,64,128,256]
+learning_rate choice [5e-5,1e-4,5e-4,1e-3,5e-3,1e-2,5e-2]

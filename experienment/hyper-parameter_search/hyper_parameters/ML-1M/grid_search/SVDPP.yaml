@@ -1,0 +1,3 @@
+embedding_size: 128
+reg_weight: 0.0005
+learning_rate: 5e-4

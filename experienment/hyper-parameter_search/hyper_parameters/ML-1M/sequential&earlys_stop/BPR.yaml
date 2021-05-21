@@ -1,0 +1,2 @@
+embedding_size: 4096
+learning_rate: 5e-5

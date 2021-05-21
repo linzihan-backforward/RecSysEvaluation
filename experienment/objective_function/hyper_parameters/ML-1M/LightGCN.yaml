@@ -1,0 +1,4 @@
+embedding_size: 64
+n_layers: 4
+reg_weight: 1e-05
+learning_rate: 7e-3
