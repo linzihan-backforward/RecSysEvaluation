@@ -23,9 +23,9 @@ In the following examples:
 Other experiments' running steps are similar.
 
 ```bash
-python run_recbole.py --model=ItemKNN --datasaet=ML-1M --config_files='$Path/RecSysEvaluation/dataset/ML-1M.yaml RecSysEvaluation/experiment/hyper_parameters/ML-1M/ItemKNN.yaml' --eval_setting=RO_RS,full
+python run_recbole.py --model=ItemKNN --datasaet=ML-1M --config_files='$Path/RecSysEvaluation/dataset/ML-1M.yaml RecSysEvaluation/experiment/dataset_splitting/hyper_parameters/ML-1M/RO_RS/ItemKNN.yaml' --eval_setting=RO_RS,full
 
-python run_recbole.py --model=BPR --datasaet=Netflix --config_files='$Path/RecSysEvaluation/dataset/Netflix.yaml RecSysEvaluation/experiment/hyper_parameters/Netflix/BPR.yaml' --eval_setting=TO_LS,full
+python run_recbole.py --model=BPR --datasaet=Netflix --config_files='$Path/RecSysEvaluation/dataset/Netflix.yaml RecSysEvaluation/experiment/dataset_splitting/hyper_parameters/Netflix/TO_LS/BPR.yaml' --eval_setting=TO_LS,full
 ```
 
 

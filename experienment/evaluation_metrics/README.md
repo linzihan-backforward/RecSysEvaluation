@@ -15,9 +15,9 @@ Run the following commands to get seven metrics, where `$Path` denotes the direc
 We take running `ItemKNN` on `ML-1M` dataset and `BPR` on `Netflix` as example,  other experiments' running steps are similar.
 
 ```bash
-python run_recbole.py  --model=ItemKNN --datasaet=ML-1M --config_files='$Path/RecSysEvaluation/dataset/ML-1M.yaml RecSysEvaluation/experiment/hyper_parameters/ML-1M/ItemKNN.yaml' --metrics='["Recall", "MRR","NDCG","Hit","Precision","MAP","GAUC"]'
+python run_recbole.py  --model=ItemKNN --datasaet=ML-1M --config_files='$Path/RecSysEvaluation/dataset/ML-1M.yaml RecSysEvaluation/experiment/evaluation_metrics/hyper_parameters/ML-1M/ItemKNN.yaml' --metrics='["Recall", "MRR","NDCG","Hit","Precision","MAP","GAUC"]'
 
-python run_recbole.py  --model=BPR --datasaet=Netflix --config_files='$Path/RecSysEvaluation/dataset/Netflix.yaml RecSysEvaluation/experiment/hyper_parameters/Netflix/BPR.yaml' --metrics='["Recall", "MRR","NDCG","Hit","Precision","MAP","GAUC"]'
+python run_recbole.py  --model=BPR --datasaet=Netflix --config_files='$Path/RecSysEvaluation/dataset/Netflix.yaml RecSysEvaluation/experiment/evaluation_metrics/hyper_parameters/Netflix/BPR.yaml' --metrics='["Recall", "MRR","NDCG","Hit","Precision","MAP","GAUC"]'
 ```
 
 

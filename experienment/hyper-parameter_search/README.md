@@ -22,9 +22,9 @@ In the following examples:
 Other experiments' running steps are similar.
 
 ```bash
-python run_hyper.py --model=BPR --datasaet=ML-1M --config_files='$Path/RecSysEvaluation/dataset/ML-1M.yaml RecSysEvaluation/experiment/hyper_parameters/ML-1M/BPR.yaml' --params_file='RecSysEvaluation/experiment/hyper_parameters/ML-1M/bpr.hyper'
+python run_hyper.py --model=BPR --datasaet=ML-1M --config_files='$Path/RecSysEvaluation/dataset/ML-1M.yaml RecSysEvaluation/experiment/hyper_parameters/ML-1M/BPR.yaml' --params_file='RecSysEvaluation/experiment/hyper-parameter_search/hyper_parameters/ML-1M/bpr.hyper'
 
-python run_obyo.py --model=NeuMF --datasaet=Netflix --config_files='$Path/RecSysEvaluation/dataset/Netflix.yaml RecSysEvaluation/experiment/hyper_parameters/Netflix/NeuMF.yaml' --params_file='RecSysEvaluation/experiment/hyper_parameters/Netflix/neumf.hyper'
+python run_obyo.py --model=NeuMF --datasaet=Netflix --config_files='$Path/RecSysEvaluation/dataset/Netflix.yaml RecSysEvaluation/experiment/hyper_parameters/Netflix/NeuMF.yaml' --params_file='RecSysEvaluation/experiment/hyper-parameter_search/hyper_parameters/Netflix/neumf.hyper'
 ```
 
 ## Hyperparameters Results
