@@ -1,0 +1,6 @@
+mlp_hidden_size: [300]
+latent_dimension: 128
+dropout_prob: 0.3
+anneal_cap: 0.1
+total_anneal_steps: 200000
+learning_rate: 1e-2

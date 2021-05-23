@@ -1,0 +1,9 @@
+algorithm: prod
+embedding_size: 16
+weight_size: 32
+split_to: 0
+reg_weights: [1e-7, 1e-7, 1e-7]
+alpha: 0
+beta: 0.5
+pretrain_path: ~
+learning_rate: 5e-4

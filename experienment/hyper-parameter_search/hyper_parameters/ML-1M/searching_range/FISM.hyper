@@ -1,0 +1,4 @@
+learning_rate choice [5e-5,1e-4,5e-4,1e-3]
+reg_weights choice ['[1e-7, 1e-7]','[0,0]','[1e-1,1e-1]','[1e-3,1e-3]','[1e-5,1e-5]']
+alpha choice [0]
+embedding_size choice [64,128,256]

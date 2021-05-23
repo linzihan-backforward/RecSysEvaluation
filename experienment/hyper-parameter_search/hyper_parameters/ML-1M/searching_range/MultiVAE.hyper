@@ -1,0 +1,6 @@
+learning_rate choice [5e-5,1e-4,5e-4,1e-3,5e-3,1e-2]
+mlp_hidden_size choice ['[100]','[300]','[600]','[1200]','[2400]']
+latent_dimension choice [128,512,1024,2048]
+dropout_prob choice [0.3,0.5]
+anneal_cap choice [0.1,0.2]
+total_anneal_steps choice [200000]

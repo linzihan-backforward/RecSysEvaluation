@@ -1,0 +1,5 @@
+embedding_size: 64
+dropout_prob: 0.3
+reg_weight: 0.0
+negative_weight: 0.001
+learning_rate: 5e-4

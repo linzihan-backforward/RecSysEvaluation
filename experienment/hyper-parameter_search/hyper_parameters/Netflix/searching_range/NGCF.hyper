@@ -1,0 +1,6 @@
+node_dropout choice [0.0]
+message_dropout choice [0.1]
+hidden_size_list choice ['[256,256,256]','[64,64,64]']
+reg_weight choice [1e-6,1e-4,1e-2,0]
+embedding_size choice [64,128,256]
+learning_rate choice [1e-4,5e-4,1e-3,5e-3]

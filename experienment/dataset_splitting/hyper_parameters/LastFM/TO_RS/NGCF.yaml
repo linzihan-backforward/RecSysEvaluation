@@ -1,6 +1,0 @@
-embedding_size: 64
-hidden_size_list: [256,256,256]
-node_dropout: 0.0
-message_dropout: 0.1
-reg_weight: 1e-5
-learning_rate: 7e-4

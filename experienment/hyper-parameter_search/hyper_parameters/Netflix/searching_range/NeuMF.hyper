@@ -1,0 +1,4 @@
+dropout_prob choice [0.2,0.3]
+mlp_hidden_size choice ['[128,128,128]','[256,128,256]','[256,256,256]']
+embedding_size choice [64,128]
+learning_rate choice [5e-5,1e-4,5e-4,1e-3]

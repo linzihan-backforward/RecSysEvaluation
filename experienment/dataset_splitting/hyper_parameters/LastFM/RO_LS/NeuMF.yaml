@@ -8,4 +8,4 @@ mlp_train: True
 use_pretrain: False
 mf_pretrain_path: ~
 mlp_pretrain_path: ~
-learning_rate: 1e-4
+learning_rate: 1e-3
