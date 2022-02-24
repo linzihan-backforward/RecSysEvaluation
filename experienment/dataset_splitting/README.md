@@ -12,20 +12,20 @@ where $\in \hat{R}_{u}$ denotes a recommendation list for user $u$ by some metho
 
 ## Running Step
 
-Run the following commands, where `$Path` denotes the directory in which `RecSysEvaluation` is located. The splitting methods range in **`[RO_RS, RO_LS, TO_RS, TO_LS]`**.The meanings of them can be found in the documents of our framework.
+Run the following commands, where `$Path` denotes the directory in which `RecSysEvaluation` is located. The splitting methods range in **`[RO_RS, RO_LS, TO_RS, TO_LS, GT_RS]`**.The meanings of them can be found in the documents of our framework.
 
 In the following examples: 
 
 - We run `ItemKNN` on `ML-1M` dataset which adopts **random ordering and ratio-based splitting** `(RO_RS)`.
 
-- We run `BPR` on `Netflix` dataset which adopts **temporal ordering and leave-one-out splitting** `(TO_LS)`.
+- We run `BPR` on `Netflix` dataset which adopts **global temporal ordering and ratio-based splitting** `(GT_RS)`.
 
 Other experiments' running steps are similar.
 
 ```bash
-python run_recbole.py --model=ItemKNN --datasaet=ML-1M --config_files='$Path/RecSysEvaluation/dataset/ML-1M.yaml RecSysEvaluation/experiment/dataset_splitting/hyper_parameters/ML-1M/RO_RS/ItemKNN.yaml' --eval_setting=RO_RS,full
+python run_recbole.py --model=ItemKNN --dataset=ML-1M --config_files='$Path/RecSysEvaluation/dataset/ML-1M.yaml RecSysEvaluation/experiment/dataset_splitting/hyper_parameters/ML-1M/RO_RS/ItemKNN.yaml' --eval_setting=RO_RS,full
 
-python run_recbole.py --model=BPR --datasaet=Netflix --config_files='$Path/RecSysEvaluation/dataset/Netflix.yaml RecSysEvaluation/experiment/dataset_splitting/hyper_parameters/Netflix/TO_LS/BPR.yaml' --eval_setting=TO_LS,full
+python run_recbole.py --model=BPR --dataset=Netflix --config_files='$Path/RecSysEvaluation/dataset/Netflix.yaml RecSysEvaluation/experiment/dataset_splitting/hyper_parameters/Netflix/GT_RS/BPR.yaml' --eval_setting=TO_RS,full --group_by_user=False
 ```
 
 

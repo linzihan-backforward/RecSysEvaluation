@@ -21,9 +21,9 @@ In the following examples:
 Other experiments' running steps are similar.
 
 ```bash
-python run_recbole.py  --model=ItemKNN --datasaet=ML-1M --config_files='$Path/RecSysEvaluation/dataset/ML-1M.yaml RecSysEvaluation/experiment/dataset_selection_and_processing/hyper_parameters/ML-1M/ItemKNN.yaml' --min_user_inter_num=5 --min_item_inter_num=5
+python run_recbole.py  --model=ItemKNN --dataset=ML-1M --config_files='$Path/RecSysEvaluation/dataset/ML-1M.yaml RecSysEvaluation/experiment/dataset_selection_and_processing/hyper_parameters/ML-1M/ItemKNN.yaml' --min_user_inter_num=5 --min_item_inter_num=5
 
-python run_recbole.py  --model=BPR --datasaet=Netflix --config_files='$Path/RecSysEvaluation/dataset/Netflix.yaml RecSysEvaluation/experiment/dataset_selection_and_processing/hyper_parameters/Netflix/BPR.yaml' --min_user_inter_num=10 --min_item_inter_num=10
+python run_recbole.py  --model=BPR --dataset=Netflix --config_files='$Path/RecSysEvaluation/dataset/Netflix.yaml RecSysEvaluation/experiment/dataset_selection_and_processing/hyper_parameters/Netflix/BPR.yaml' --min_user_inter_num=10 --min_item_inter_num=10
 ```
 
 

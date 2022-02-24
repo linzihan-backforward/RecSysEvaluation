@@ -18,31 +18,31 @@ In the following examples:
 - We run `BPR` on`ML-1M` dataset and find best hyper-parameters through `sequential search`.
 
   ```bash
-  python run_hyper_obyo.py --model=BPR --datasaet=ML-1M --config_files='$Path/RecSysEvaluation/dataset/ML-1M.yaml' --params_file='$Path/RecSysEvaluation/experiment/hyper-parameter_search/hyper_parameters/ML-1M/searching_range/BPR.hyper' 
+  python run_hyper_obyo.py --model=BPR --dataset=ML-1M --config_files='$Path/RecSysEvaluation/dataset/ML-1M.yaml' --params_file='$Path/RecSysEvaluation/experiment/hyper-parameter_search/hyper_parameters/ML-1M/searching_range/BPR.hyper' 
   ```
 
 - We run `NeuMF` on`Netflix` dataset and find best hyper-parameters through `grid search`.
 
   ```bash
-  python run_hyper.py --model=NeuMF --datasaet=Netflix --config_files='$Path/RecSysEvaluation/dataset/Netflix.yaml' --params_file='$Path/RecSysEvaluation/experiment/hyper-parameter_search/hyper_parameters/Netflix/searching_range/NeuMF.hyper' 
+  python run_hyper.py --model=NeuMF --dataset=Netflix --config_files='$Path/RecSysEvaluation/dataset/Netflix.yaml' --params_file='$Path/RecSysEvaluation/experiment/hyper-parameter_search/hyper_parameters/Netflix/searching_range/NeuMF.hyper' 
   ```
 
 - We run `BPR` on`ML-1M` dataset and find best hyper-parameters through `sequential search` with `early stop` equal to 2.
 
   ```bash
-  python run_hyper_obyo.py --model=BPR --datasaet=ML-1M --config_files='$Path/RecSysEvaluation/dataset/ML-1M.yaml' --params_file='$Path/RecSysEvaluation/experiment/hyper-parameter_search/hyper_parameters/ML-1M/searching_range/BPR.hyper' --early_stop=2
+  python run_hyper_obyo.py --model=BPR --dataset=ML-1M --config_files='$Path/RecSysEvaluation/dataset/ML-1M.yaml' --params_file='$Path/RecSysEvaluation/experiment/hyper-parameter_search/hyper_parameters/ML-1M/searching_range/BPR.hyper' --early_stop=2
   ```
 
 - We run `BPR` on `ML-1M` dataset with best hyper-parameters searched by `sequential search`.
 
   ```bash
-  python run_recbole.py --model=BPR --datasaet=ML-1M --config_files='$Path/RecSysEvaluation/dataset/ML-1M.yaml  $Path/RecSysEvaluation/experiment/hyper-parameter_search/hyper_parameters/ML-1M/sequential_search/BPR.yaml' 
+  python run_recbole.py --model=BPR --dataset=ML-1M --config_files='$Path/RecSysEvaluation/dataset/ML-1M.yaml  $Path/RecSysEvaluation/experiment/hyper-parameter_search/hyper_parameters/ML-1M/sequential_search/BPR.yaml' 
   ```
 
 - We run `NeuMF` on`Netflix` dataset with best hyper-parameters searched by `grid search`.
 
   ```bash
-  python run_recbole.py --model=NeuMF --datasaet=Netflix --config_files='$Path/RecSysEvaluation/dataset/Netflix.yaml  $Path/RecSysEvaluation/experiment/hyper-parameter_search/hyper_parameters/Netflix/grid_search/NeuMF.yaml' 
+  python run_recbole.py --model=NeuMF --dataset=Netflix --config_files='$Path/RecSysEvaluation/dataset/Netflix.yaml  $Path/RecSysEvaluation/experiment/hyper-parameter_search/hyper_parameters/Netflix/grid_search/NeuMF.yaml' 
   ```
 
 Other experiments' running steps are similar.

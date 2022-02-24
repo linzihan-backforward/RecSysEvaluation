@@ -1,7 +1,7 @@
 # RecSysEvaluation
 This is our code and supplementary materials for the paper:
 
-> Wayne Xin Zhao, Zihan Lin, Zhichao Feng, PengFei Wang and Ji-Rong Wen (2021). A Revisiting Study of Appropriate Offline Evaluation for Top-𝑁 Recommendation Algorithms. 
+> Wayne Xin Zhao, Zihan Lin, Zhichao Feng, PengFei Wang and Ji-Rong Wen (2022). A Revisiting Study of Appropriate Offline Evaluation for Top-𝑁 Recommendation Algorithms. 
 
 ## Introduction
 
@@ -46,7 +46,15 @@ we collected 93 papers from eight conferences, which are KDD, SIGIE, WWW, IJCAI,
 
 Any scientific publications that use our codes or results should cite the following paper as the reference.
 
-We will update the citation when the paper publish.
+```
+@article{zhao2022revisiting, 
+  title={A Revisiting Study of Appropriate Offline Evaluation for Top-𝑁 Recommendation Algorithms},
+  author={Wayne Xin Zhao, Zihan Lin, Zhichao Feng, Pengfei Wang and Ji-Rong Wen},
+  journal={ACM Transactions on Information Systems (TOIS)},
+  year={2022},
+  publisher={ACM New York, NY, USA}
+}
+```
 
 
 

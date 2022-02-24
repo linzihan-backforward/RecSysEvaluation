@@ -25,11 +25,11 @@ In the following examples:
 Other experiments' running steps are similar.
 
 ```bash
-python run_recbole.py --model=BPRCE --datasaet=ML-1M --config_files='$Path/RecSysEvaluation/dataset/ML-1M.yaml RecSysEvaluation/experiment/objective_function/hyper_parameters/ML-1M/BPRCE.yaml'
+python run_recbole.py --model=BPRCE --dataset=ML-1M --config_files='$Path/RecSysEvaluation/dataset/ML-1M.yaml RecSysEvaluation/experiment/objective_function/hyper_parameters/ML-1M/BPRCE.yaml'
 
-python run_recbole.py --model=NeuMFBPR --datasaet=Netflix --config_files='$Path/RecSysEvaluation/dataset/Netflix.yaml RecSysEvaluation/experiment/objective_function/hyper_parameters/Netflix/NeuMFBPR.yaml' 
+python run_recbole.py --model=NeuMFBPR --dataset=Netflix --config_files='$Path/RecSysEvaluation/dataset/Netflix.yaml RecSysEvaluation/experiment/objective_function/hyper_parameters/Netflix/NeuMFBPR.yaml' 
 
-python run_recbole.py --model=CDAE --datasaet=Yelp --config_files='$Path/RecSysEvaluation/dataset/Yelp.yaml RecSysEvaluation/experiment/objective_function/hyper_parameters/Yelp/CDAE.yaml' --training_neg_num=0
+python run_recbole.py --model=CDAE --dataset=Yelp --config_files='$Path/RecSysEvaluation/dataset/Yelp.yaml RecSysEvaluation/experiment/objective_function/hyper_parameters/Yelp/CDAE.yaml' --training_neg_num=0
 ```
 
 
